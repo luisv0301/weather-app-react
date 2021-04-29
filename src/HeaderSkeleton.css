@@ -1,0 +1,20 @@
+.header {
+  width: 35%;
+  height: 1.17rem;
+  border-radius: 5px;
+  background-color: #8080806e;
+  margin-top: 1rem;
+  animation: skeleton 1.3s linear infinite;
+}
+
+@keyframes skeleton {
+  0% {
+    background-color: #808080;
+  }
+  50% {
+    background-color: #8080806e;
+  }
+  100% {
+    background-color: #808080;
+  }
+}

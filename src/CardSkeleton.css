@@ -1,0 +1,41 @@
+.card {
+  margin-top: 1.5rem;
+  background-color: white;
+  width: 80%;
+
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 5px 12px rgb(0 0 0 / 4%);
+}
+
+.tittle {
+  margin-bottom: 1rem;
+  width: 45%;
+  height: 2rem;
+  border-radius: 5px;
+  background-color: #8080806e;
+}
+
+.text {
+  width: 67%;
+  height: 0.6rem;
+  margin-bottom: 0.4rem;
+  background-color: #8080806e;
+  border-radius: 6px;
+}
+
+.tittle,
+.text {
+  animation: skeleton 1.3s linear infinite;
+}
+@keyframes skeleton {
+  0% {
+    background-color: #808080;
+  }
+  50% {
+    background-color: #8080806e;
+  }
+  100% {
+    background-color: #808080;
+  }
+}

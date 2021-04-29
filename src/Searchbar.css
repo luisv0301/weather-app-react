@@ -1,0 +1,17 @@
+.form {
+  width: 80%;
+}
+
+.input,
+.button {
+  padding: 0.6em;
+  border: none;
+}
+
+.input {
+  width: 70%;
+}
+
+.button {
+  width: 30%;
+}
