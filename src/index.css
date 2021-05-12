@@ -1,13 +1,20 @@
+body {
+  --body-background-color-light: #e2f1f8;
+  --card-background-color-light: #ffffff;
+  --text-color-primary: #29434e;
+  --text-color-secondary: #819ca9;
+
+  font-family: "Open Sans", sans-serif;
+  color: var(--text-color-primary);
+  background-color: var(--body-background-color-light);
+}
+
 html {
   font-size: 16px;
 }
 
 * {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgb(202 203 204 / 47%);
 }

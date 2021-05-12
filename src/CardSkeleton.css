@@ -1,7 +1,7 @@
 .card {
   margin-top: 1.5rem;
-  background-color: white;
-  width: 80%;
+  background-color: var(--card-background-color-light);
+  width: min(640px, 85%);
 
   padding: 1rem;
   border-radius: 4px;

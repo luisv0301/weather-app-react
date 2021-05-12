@@ -1,17 +1,42 @@
 .form {
-  width: 80%;
+  width: min(640px, 85%);
 }
 
 .input,
 .button {
-  padding: 0.6em;
+  padding: 0.5em 1em;
   border: none;
 }
 
 .input {
-  width: 70%;
+  color: var(--text-color-primary);
+  background-color: var(--card-background-color-light);
+  font-size: 1rem;
+  width: 82%;
 }
 
 .button {
-  width: 30%;
+  background-color: var(--card-background-color-light);
+  width: 18%;
+  cursor: pointer;
+}
+
+svg {
+  color: var(--text-color-secondary);
+  height: 2rem;
+  width: 2rem;
+}
+
+.form-container {
+  display: flex;
+  width: 100%;
+}
+
+.error {
+  border: 2px solid red;
+  background-color: rgb(250, 219, 219);
+}
+
+::placeholder {
+  color: var(--text-color-secondary);
 }

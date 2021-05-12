@@ -8,8 +8,7 @@ export default function CardSkeleton() {
             <div className="text"></div>
             <div className="texr"></div>
             <div className="text"></div>
-            <div className="text"></div>
-            
+            <div className="text"></div>     
         </div>
     )
 }

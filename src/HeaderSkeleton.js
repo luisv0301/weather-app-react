@@ -3,8 +3,7 @@ import './HeaderSkeleton.css';
 
 export default function headerSkeleton() {
     return (
-        <div className="header">
-            
+        <div className="header">    
         </div>
     )
 }
