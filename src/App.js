@@ -76,7 +76,6 @@ function App() {
         {state.cityInfo && (<h3 className="app_h3">{state.cityInfo?.name}, {state.cityInfo?.country}</h3>)}
         {state.city.map((c, index) => <Result {...c} key={index} />)}
       </div>
-      <p>Developed by Luis Vasquez</p>
     </div>
   );
 }

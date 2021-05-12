@@ -56,7 +56,7 @@
 }
 
 .p_description {
-  width: 85%;
+  width: min(640px, 85%);
   color: var(--text-color-secondary);
   text-align: initial;
   font-size: 0.9rem;
