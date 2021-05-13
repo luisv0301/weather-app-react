@@ -31,6 +31,6 @@
 }
 
 .card_p {
-  color: var(--body-background-color-light);
+  color: var(--text-color-secondary);
   margin-bottom: 0.3em;
 }

@@ -33,7 +33,7 @@ export default function Result({main, weather, visibility}) {
             <h2 className="card_h2">{kelvinConversion.toFixed(2)} °C</h2>
             <p className="card_p">pressure: {main.pressure} hPa</p>
             <p className="card_p">humidity: {main.humidity} %</p>
-            <p>visibility: {visibility} m</p>
+            <p className="card_p">visibility: {visibility} m</p>
         </div>
     )
 }

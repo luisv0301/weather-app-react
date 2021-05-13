@@ -11,7 +11,10 @@ import {darkTheme, lightTheme} from './Themes.js';
 function App() {
 
   const [state, dispatch] = useReducer(Reducer, initialValue);
-  const API = "f6370cc1ec197a945343dcd03a1e68dd";
+  const API= process.env.REACT_APP_WEATHER_API_KEY;
+  
+
+console.log("la api: ", process.env.REACT_APP_WEATHER_API_KEY)
 
   const darkMode = () => {
     dispatch({type: "DARK_MODE"})
@@ -39,6 +42,7 @@ function App() {
     
     try {
       dispatch({ type: "LOADING" })
+      console.log("haciendo fet: ", API)
       const resp = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${state.cityName}&appid=${API}`);
       const newResp = await resp.json();
       const cityInfos = newResp.city;
