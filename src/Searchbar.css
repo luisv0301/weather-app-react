@@ -4,7 +4,10 @@
 
 .input,
 .button {
-  padding: 0.5em 1em;
+  position: absolute;
+  height: 100%;
+  border-radius: 5px;
+  padding: 0 0.65em;
   border: none;
 }
 
@@ -12,12 +15,13 @@
   color: var(--text-color-primary);
   background-color: var(--card-background-color-light);
   font-size: 1rem;
-  width: 82%;
+  width: 100%;
+  outline-color: #a5b4fc;
 }
 
 .button {
+  right: 0;
   background-color: var(--card-background-color-light);
-  width: 18%;
   cursor: pointer;
 }
 
@@ -28,6 +32,8 @@ svg {
 }
 
 .form-container {
+  position: relative;
+  height: 3rem;
   display: flex;
   width: 100%;
 }

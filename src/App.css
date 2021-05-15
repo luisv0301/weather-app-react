@@ -9,7 +9,6 @@
 .app_h1 {
   color: var(--text-color-primary);
   font-weight: 700;
-  margin: 1em 0em 0.5em 0;
 }
 
 .app_h3 {
@@ -17,7 +16,7 @@
 }
 
 .app_container {
-  width: 85%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,7 +41,7 @@
 }
 
 .btn {
-  padding: 0, 2em;
+  padding: 0.2em 0.4em;
   border-radius: 3px;
   border: none;
 }

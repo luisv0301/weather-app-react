@@ -3,8 +3,9 @@
   width: min(640px, 85%);
   padding: 1.5em;
   border-radius: 4px;
-  box-shadow: 0 5px 12px rgb(0 0 0 / 4%);
   background-color: var(--card-background-color-light);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .center_div {
